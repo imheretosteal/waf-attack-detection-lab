@@ -205,7 +205,7 @@ This prevents malicious requests from reaching the vulnerable application.
 
 ### WAF Protected Architecture
 
-![WAF Architecture](waf-architecture.png)
+![WAF Architecture](https://github.com/imheretosteal/waf-attack-detection-lab/blob/69a6183c7e5ffb4d8b00126d25037d35bc293904/waf-architecture.png)
 
 This architecture demonstrates the reverse proxy design, where the WAF sits between the attacker and the backend infrastructure.
 
@@ -223,7 +223,7 @@ This architecture demonstrates the reverse proxy design, where the WAF sits betw
 
 ### SQL Injection Successful (Before WAF)
 
-![SQL Injection Success](https://github.com/bhargavi-c-cyber/waf-attack-detection-lab/blob/main/cmd-injection-success.png)
+![SQL Injection Success](https://github.com/imheretosteal/waf-attack-detection-lab/blob/69a6183c7e5ffb4d8b00126d25037d35bc293904/sql-injection-success.png)
 
 *Figure: SQL injection attack successfully executed when the application was directly exposed.*
 
@@ -231,7 +231,7 @@ This architecture demonstrates the reverse proxy design, where the WAF sits betw
 
 ### Command Injection Successful (Before WAF)
 
-![Command Injection Success](cmd-injection-success.png)
+![Command Injection Success](https://github.com/imheretosteal/waf-attack-detection-lab/blob/69a6183c7e5ffb4d8b00126d25037d35bc293904/cmd-injection-success.png)
 
 *Figure: Command injection allowing system commands to be executed on the server.*
 
@@ -241,7 +241,7 @@ This architecture demonstrates the reverse proxy design, where the WAF sits betw
 
 ### SQL Injection Blocked
 
-![SQL Injection Blocked](https://github.com/bhargavi-c-cyber/waf-attack-detection-lab/blob/main/sql-injection-blocked.png)
+![SQL Injection Blocked](https://github.com/imheretosteal/waf-attack-detection-lab/blob/69a6183c7e5ffb4d8b00126d25037d35bc293904/sql-injection-blocked.png)
 
 *Figure: SafeLine WAF detecting and blocking a malicious SQL injection attempt.*
 
@@ -256,7 +256,7 @@ SafeLine provides monitoring features such as:
 - Traffic analysis
 - Security rule detection
 
-![WAF Dashboard](https://github.com/bhargavi-c-cyber/waf-attack-detection-lab/blob/main/waf-dashboard-stats.png)
+![WAF Dashboard](https://github.com/imheretosteal/waf-attack-detection-lab/blob/69a6183c7e5ffb4d8b00126d25037d35bc293904/waf-dashboard-stats.png)
 
 ---
 
