@@ -51,20 +51,25 @@ In this architecture the web server is **directly exposed to the internet**, all
 
 ### After WAF (Protected Architecture)
 
+### After WAF (Protected Architecture)
 
-Attacker
-   │
-   ▼
-SafeLine WAF
-   │
-   ▼
-Web Server
-   │
-   ▼
-DVWA
-   │
-   ▼
-Database
+```
+        Attacker
+            │
+            ▼
+   SafeLine WAF (HTTPS - 443)
+            │
+            ▼
+   Web Server (Apache - 8080)
+            │
+            ▼
+       DVWA Application
+            │
+            ▼
+        MySQL Database
+```
+
+The WAF acts as a **reverse proxy security layer**, inspecting incoming HTTP requests and blocking malicious payloads before they reach the backend application.
 
 
 
